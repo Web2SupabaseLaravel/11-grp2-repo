@@ -40,6 +40,8 @@ This project was built to:
 
 ---
 ![image](https://github.com/user-attachments/assets/8e494367-d188-4ea2-9c91-a6495f3a5ed7)
+![image](https://github.com/user-attachments/assets/77c9c454-39f9-4f93-8d25-c7af36f0e2b9)
+
 
 
 ## ✨ Author
