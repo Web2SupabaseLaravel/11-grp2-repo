@@ -47,8 +47,10 @@ This project was built to:
 
 
 
-## ✨ Author
+## ✨
 API Documentation: https://documenter.getpostman.com/view/45167747/2sB2qcCLsC
+
+
 .env:
 DB_CONNECTION=pgsql
 DB_HOST=aws-0-us-west-1.pooler.supabase.com
