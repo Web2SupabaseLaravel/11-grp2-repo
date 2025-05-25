@@ -1,4 +1,4 @@
-# 🎟️ Laravel Event Registration Management System
+## 🎟️ Laravel Event Registration Management System
 
 Welcome to **Laravel Event Registration Management System**, a clean and efficient Laravel application to manage user registrations for events.
 
