@@ -47,10 +47,9 @@ This project was built to:
 
 
 
-
 ## ✨ Author
-API Documentation:  
-   https://documenter.getpostman.com/view/45167747/2sB2qcCLsC
+API Documentation: https://documenter.getpostman.com/view/45167747/2sB2qcCLsC
+
 Made with ❤️ by **Qusai Hamed** – Branch: `qusaiHamed-branch`
 
 
