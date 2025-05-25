@@ -7,11 +7,12 @@ use App\Models\Registration;
 
 class RegistrationController extends Controller
 {
-    public function index()
-    {
-        $registrations = Registration::all();
-        return view('registration.index', compact('registrations'));
-    }
+ public function index()
+{
+    $registrations = \App\Models\Registration::all();
+    return view('registration.index', compact('registrations'));
+}
+
 
     public function create()
     {
@@ -55,4 +56,19 @@ class RegistrationController extends Controller
         Registration::destroy($id);
         return response()->json(['message' => 'Deleted']);
     }
+    public function apiStore(Request $request)
+{
+    $validated = $request->validate([
+        'user_id' => 'required|exists:app_users,id_user',
+        'event_id' => 'required|exists:event,id',
+        'status' => 'required|string|in:Confirmed,Cancelled,Transferred',
+    ]);
+
+    $validated['registration_datetime'] = now();
+
+    $registration = Registration::create($validated);
+
+    return response()->json($registration, 201);
+}
+
 }
