@@ -22,7 +22,6 @@ This project was built to:
 - 🎨 **Blade** – Laravel’s templating engine  
 - 🐘 **PostgreSQL (via Supabase)** – Cloud database  
 - 💻 **HTML & CSS** – Custom styled registration form  
-- 📦 **Tinker** – For testing DB queries easily
 
 ---
 
