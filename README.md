@@ -37,7 +37,6 @@ This project was built to:
 - 💾 Saves to Supabase-backed PostgreSQL database  
 - 🎨 Fully styled with a responsive and elegant form design  
 حح
----
 Picture
 ---
 http://127.0.0.1:8000/registration/create 
