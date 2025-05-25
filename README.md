@@ -45,10 +45,11 @@ http://127.0.0.1:8000/registration/create
 ![image](https://github.com/user-attachments/assets/8e494367-d188-4ea2-9c91-a6495f3a5ed7)
 ------------------------------------------------------------------------------------------
 http://127.0.0.1:8000/registration
-
-![image](https://github.com/user-attachments/assets/d63f05d6-c19b-4e40-a175-0eda0fc4b695)
-------------------------------------------------------------------------------------------
 ![image](https://github.com/user-attachments/assets/3e452242-422f-4b23-89dd-8a9cdbb9c646)
+
+------------------------------------------------------------------------------------------
+![image](https://github.com/user-attachments/assets/d63f05d6-c19b-4e40-a175-0eda0fc4b695)
+
 
 
 
