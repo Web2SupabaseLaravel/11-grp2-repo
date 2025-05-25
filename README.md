@@ -49,6 +49,13 @@ This project was built to:
 
 ## ✨ Author
 API Documentation: https://documenter.getpostman.com/view/45167747/2sB2qcCLsC
+.env:
+DB_CONNECTION=pgsql
+DB_HOST=aws-0-us-west-1.pooler.supabase.com
+DB_PORT=5432
+DB_DATABASE=postgres
+DB_USERNAME=postgres.bwlxqtmcpjgbzxflywpw
+DB_PASSWORD=12325336web2
 
 Made with ❤️ by **Qusai Hamed** – Branch: `qusaiHamed-branch`
 
