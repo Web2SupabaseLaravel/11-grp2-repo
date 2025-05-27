@@ -2,6 +2,13 @@
 ## DEMO link ("https://youtu.be/iTnKTPvfPd8")
 - my task : app users table(CRUD) : for now, create, store, index 
 - update : api doc, testing via postman, full CRUD : done
+- .env :
+DB_CONNECTION=pgsql
+DB_HOST=aws-0-us-west-1.pooler.supabase.com
+DB_PORT=5432
+DB_DATABASE=postgres
+DB_USERNAME=postgres.bwlxqtmcpjgbzxflywpw
+DB_PASSWORD=12325336web2
 --------------------------------------------------------------
 # My Laravel Supabase API Documentation
 
