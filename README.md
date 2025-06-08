@@ -11,6 +11,9 @@ DB_USERNAME=postgres.bwlxqtmcpjgbzxflywpw
 DB_PASSWORD=12325336web2
 
 <img width="1470" alt="Screenshot 2025-06-04 at 3 24 13 PM" src="https://github.com/user-attachments/assets/10013a0a-3631-45d4-add2-298cf194f2ad" />
+<img width="1470" alt="Screenshot 2025-06-04 at 3 24 31 PM" src="https://github.com/user-attachments/assets/8e26d089-7f24-467b-884f-ae36f60200c9" />
+<img width="1470" alt="Screenshot 2025-06-04 at 3 26 02 PM" src="https://github.com/user-attachments/assets/99bf72ad-50bf-45a7-a3db-912c45633cb3" />
+<img width="1470" alt="Screenshot 2025-06-04 at 3 26 20 PM" src="https://github.com/user-attachments/assets/73b3624d-9294-42f2-a41d-815615c919ce" />
 
 --------------------------------------------------------------
 # My Laravel Supabase API Documentation
