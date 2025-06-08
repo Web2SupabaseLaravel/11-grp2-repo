@@ -1,7 +1,6 @@
 # 11-grp2-repo-TASBEEH BRANCH
 ## DEMO link ("https://youtu.be/iTnKTPvfPd8")
-- my task : app users table(CRUD) : for now, create, store, index 
-- update : api doc, testing via postman, full CRUD : done
+- my task : app users table(CRUD)  ,api doc, testing via postman, jwt
 - .env :
 DB_CONNECTION=pgsql
 DB_HOST=aws-0-us-west-1.pooler.supabase.com
