@@ -9,6 +9,9 @@ DB_PORT=5432
 DB_DATABASE=postgres
 DB_USERNAME=postgres.bwlxqtmcpjgbzxflywpw
 DB_PASSWORD=12325336web2
+
+<img width="1470" alt="Screenshot 2025-06-04 at 3 24 13 PM" src="https://github.com/user-attachments/assets/10013a0a-3631-45d4-add2-298cf194f2ad" />
+
 --------------------------------------------------------------
 # My Laravel Supabase API Documentation
 
