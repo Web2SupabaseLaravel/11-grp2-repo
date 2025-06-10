@@ -198,18 +198,4 @@ DB_USERNAME=postgres.bwlxqtmcpjgbzxflywpw
 DB_PASSWORD=12325336web2
 
 # images:
-![list all users ](<Screenshot 2025-06-10 at 6.34.55 AM.png>) 
-
-![create user](<Screenshot 2025-06-10 at 6.41.30 AM.png>) 
-
-![created](<Screenshot 2025-06-10 at 6.41.18 AM.png>) 
-
-![show user details](<Screenshot 2025-06-10 at 6.41.51 AM.png>) 
-
-![edit user details](<Screenshot 2025-06-10 at 6.41.56 AM.png>) 
-
-![updated](<Screenshot 2025-06-10 at 6.50.47 AM.png>) 
-
-![delete user](<Screenshot 2025-06-10 at 6.50.56 AM.png>) 
-
-![deleted](<Screenshot 2025-06-10 at 6.51.16 AM.png>)
+<img width="1470" alt="Screenshot 2025-06-10 at 6 34 55 AM" src="https://github.com/user-attachments/assets/ff07f68f-5f55-4d93-835d-6a6f7eff0f19" />
