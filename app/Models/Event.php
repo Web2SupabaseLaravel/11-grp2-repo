@@ -20,10 +20,15 @@ class Event extends Model
         'capacity',
         'category',
         'status',
+        'organizer_id',
     ];
 
     protected $casts = [
         'start_datetime' => 'datetime',
         'end_datetime' => 'datetime',
     ];
+    public function organizer()
+{
+    return $this->belongsTo(app_users::class, 'organizer_id');
+}
 }

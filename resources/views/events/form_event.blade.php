@@ -20,8 +20,8 @@
     .form-label {
         font-weight: 600;
         color: #34495e;
-        display: block; /* تأكد أن الليبل يظهر فوق */
-        margin-bottom: 8px; /* مسافة بين الليبل والحقول */
+        display: block;
+        margin-bottom: 8px;
     }
     .form-control, .form-select {
         border-radius: 8px;
@@ -147,15 +147,20 @@
             <input type="datetime-local" name="end_datetime" id="end_datetime" class="form-control" value="{{ old('end_datetime', isset($event) ? \Carbon\Carbon::parse($event->end_datetime)->format('Y-m-d\TH:i') : '') }}" required>
         </div>
 
-        <div class="mb-3">
-            <label for="status" class="form-label">Status <span class="text-danger">*</span></label>
-            <select name="status" id="status" class="form-select" required>
-                <option value="">Select Status</option>
-                <option value="approved" {{ old('status', $event->status ?? '') == 'approved' ? 'selected' : '' }}>Approved</option>
-                <option value="pending" {{ old('status', $event->status ?? '') == 'pending' ? 'selected' : '' }}>Pending</option>
-                <option value="rejected" {{ old('status', $event->status ?? '') == 'rejected' ? 'selected' : '' }}>Rejected</option>
-            </select>
-        </div>
+        {{-- عرض حقل الحالة فقط للمشرفين --}}
+        @auth
+            @if(auth()->user()->is_admin)
+                <div class="mb-3">
+                    <label for="status" class="form-label">Status <span class="text-danger">*</span></label>
+                    <select name="status" id="status" class="form-select" required>
+                        <option value="">Select Status</option>
+                        <option value="approved" {{ old('status', $event->status ?? '') == 'approved' ? 'selected' : '' }}>Approved</option>
+                        <option value="pending" {{ old('status', $event->status ?? '') == 'pending' ? 'selected' : '' }}>Pending</option>
+                        <option value="rejected" {{ old('status', $event->status ?? '') == 'rejected' ? 'selected' : '' }}>Rejected</option>
+                    </select>
+                </div>
+            @endif
+        @endauth
 
         <div class="btn-group">
             <a href="{{ route('event.index') }}" class="btn btn-secondary">Back</a>
