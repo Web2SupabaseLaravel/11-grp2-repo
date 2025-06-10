@@ -199,3 +199,14 @@ DB_PASSWORD=12325336web2
 
 # images:
 <img width="1470" alt="Screenshot 2025-06-10 at 6 34 55 AM" src="https://github.com/user-attachments/assets/ff07f68f-5f55-4d93-835d-6a6f7eff0f19" />
+<img width="1470" alt="Screenshot 2025-06-10 at 6 41 18 AM" src="https://github.com/user-attachments/assets/e33df1a5-5bd8-4b21-a659-7a0b3281b727" />
+<img width="1470" alt="Screenshot 2025-06-10 at 6 41 30 AM" src="https://github.com/user-attachments/assets/967bf358-da6c-49f6-844a-06b62641a922" />
+<img width="1470" alt="Screenshot 2025-06-10 at 6 41 51 AM" 
+src="https://github.com/user-attachments/assets/98a0d7ef-e2af-440a-ba99-c75e772c41da" />
+<img width="1470" alt="Screenshot 2025-06-10 at 6 41 56 AM" src="https://github.com/user-attachments/assets/9f34a6ea-cbc5-47ed-a897-a54919fa318a" />
+<img width="1470" alt="Screenshot 2025-06-10 at 6 50 47 AM" src="https://github.com/user-attachments/assets/714dbacd-0494-4461-b8f1-0c956ad3b95a" />
+<img width="1470" alt="Screenshot 2025-06-10 at 6 50 56 AM" src="https://github.com/user-attachments/assets/9ef1cfca-ef4d-434a-b5ae-d9e4f01bb0dc" />
+<img width="1470" alt="Screenshot 2025-06-10 at 6 51 16 AM" src="https://github.com/user-attachments/assets/6967cc36-423a-4540-8af9-4635cb750451" />
+
+
+
