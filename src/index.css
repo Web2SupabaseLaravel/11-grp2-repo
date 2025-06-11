@@ -1,0 +1,47 @@
+body {
+  font-family: 'Actor', sans-serif;
+  background-color: #F5EFE7;
+  color: #3E5879;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 24px;
+}
+
+button {
+  font-size: 20px;
+}
+
+.bg-primary {
+  background-color: #3E5879 !important;
+}
+
+.bg-neutral {
+  background-color: #D8C4B6 !important;
+}
+
+.bg-alert {
+  background-color: #B8001F !important;
+}
+
+.text-primary {
+  color: #3E5879 !important;
+}
+
+.text-neutral {
+  color: #D8C4B6 !important;
+}
+
+.text-alert {
+  color: #B8001F !important;
+}

@@ -1,0 +1,95 @@
+/* styles/custom.css */
+
+/* === Font Setup === */
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+body {
+  font-family: 'Actor', sans-serif;
+  background-color: #F5EFE7;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Typography Sizes === */
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 24px;
+}
+
+button,
+.btn,
+a.btn {
+  font-size: 20px;
+}
+
+/* === Navbar === */
+.navbar {
+  background-color: #3E5879;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* === Hero Box === */
+.hero-box {
+  background-color: #F5EFE7;
+  padding: 40px;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 85%;
+}
+
+/* === Accent Button === */
+.bg-accent {
+  background-color: #B8001F;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.bg-accent:hover {
+  background-color: #900018;
+}
+
+/* === Cards (Reusable for Events/Tickets) === */
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background-color: #FFFFFF;
+}
+
+.card-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+/* === Neutral BGs === */
+.bg-neutral {
+  background-color: #D8C4B6;
+}
