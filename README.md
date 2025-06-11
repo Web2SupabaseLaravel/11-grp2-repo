@@ -23,3 +23,4 @@ This is the official **Laravel backend** for the Ticketing & Registration System
 - QR Code Generator
 
 ---
+![Uploading image.png…]()
