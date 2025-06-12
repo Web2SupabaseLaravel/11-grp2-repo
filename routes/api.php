@@ -14,4 +14,6 @@ Route::delete('/registrations/{id}', [RegistrationController::class, 'destroy'])
 
 Route::get('/events', [EventController::class, 'index']);
 Route::get('/events/search', [EventController::class, 'search']);
+
+// ✅ تأكد من هذا الراوت
 Route::get('/tickets/by-event/{event_id}', [TicketTypeController::class, 'getByEvent']);

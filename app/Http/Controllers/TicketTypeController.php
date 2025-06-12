@@ -7,14 +7,12 @@ use App\Models\TicketType;
 
 class TicketTypeController extends Controller
 {
-    // عرض صفحة إدارة التذاكر
     public function manage($event_id)
     {
         $tickets = TicketType::where('event_id', $event_id)->get();
         return view('tickets.manage', compact('tickets', 'event_id'));
     }
 
-    // إضافة تذكرة جديدة
     public function store(Request $request)
     {
         $request->validate([
@@ -29,15 +27,16 @@ class TicketTypeController extends Controller
         return redirect()->back()->with('success', '✅ Ticket added successfully.');
     }
 
-    // حذف تذكرة
     public function delete($id)
     {
         TicketType::findOrFail($id)->delete();
         return redirect()->back()->with('success', '🗑️ Ticket deleted.');
     }
-    public function getByEvent($event_id)
-{
-    return TicketType::where('event_id', $event_id)->get();
-}
 
+    // ✅ جلب التذاكر حسب الحدث
+    public function getByEvent($event_id)
+    {
+        $tickets = TicketType::where('event_id', $event_id)->get();
+        return response()->json($tickets);
+    }
 }
